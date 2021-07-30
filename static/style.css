@@ -1,0 +1,100 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: auto;
+  top: 0;
+  left: 0;
+  align-items: center;
+  
+}
+
+.title {
+  margin-top: 300px;  
+  color: white;  
+  font-weight: 800px;
+  
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  margin: 20px 0px 20px 0px;
+  background: transparent;
+  border-style:none;
+  border-bottom:solid 3px #cacaca;
+  transition: border-color 0.3s ease-in-out;
+  font-size: 15px;
+  color: white;
+}
+
+button{
+  border: none;
+  background: transparent;
+  font-size: 2.3rem;
+  margin-left: 20px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.background {
+  background-image: url("https://hr.lacounty.gov/wp-content/uploads/2019/11/resume.background.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-size: cover;
+}
+
+.search_background{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://cdn.phenompeople.com/CareerConnectResources/CUWAGLOBAL/images/job-Search-results-at-cushmanwakefield-1590494570476.jpg");  
+  z-index: -1;
+  background-size: cover;  
+}
+.search_header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  color: black;
+}
+
+.search_title {
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+
+section {
+  display:grid;
+  gap:20px;
+  grid-template-columns: repeat(4, 1fr);
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+} 
+h4 {
+  font-size: 25px;
+  border-bottom: 1px solid black;  
+}
+.job_title{
+  text-align: left;
+  font-weight: 800;
+  font-size: 25px;
+  color: blueviolet;
+  margin: 5px 15px 10px 5px;
+}
+.job{
+  font-size: 20px;
+  font-weight: 700;
+}
