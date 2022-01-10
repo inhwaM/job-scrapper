@@ -5,6 +5,6 @@
 
 
 # job-scrapper
-Software engineering Job search. Search results are transferred from Stack Overflow, We Work Remotely, and Remote Ok.
+Software engineer Job search. Search results are transferred from Stack Overflow, We Work Remotely, and Remote Ok.
 
 You can search with any keyword (programming language) and it directs you to one page to see all search results. You also can export the list of jobs to a csv file so that you can manage the data in Excel. 
